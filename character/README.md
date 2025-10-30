@@ -86,3 +86,49 @@ query {
 }
 
 ---
+## 📌 Task 1: Paginated Character List
+
+### Objective
+Write GraphQL queries to retrieve a paginated list of characters across four pages.
+
+### Fields Selected
+- `id`
+- `name`
+- `status`
+- `image`
+
+### Files
+| Filename | Description |
+|----------|-------------|
+| `characters-page-1.graphql` | Query for characters on page 1 |
+| `characters-page-1-output.json` | API response for page 1 |
+| `characters-page-2.graphql` | Query for characters on page 2 |
+| `characters-page-2-output.json` | API response for page 2 |
+| `characters-page-3.graphql` | Query for characters on page 3 |
+| `characters-page-3-output.json` | API response for page 3 |
+| `characters-page-4.graphql` | Query for characters on page 4 |
+| `characters-page-4-output.json` | API response for page 4 |
+
+---
+
+## 🧪 How to Run Queries
+
+You can run each `.graphql` file using:
+
+- [Rick and Morty GraphQL Playground](https://rickandmortyapi.com/graphql)
+- A local GraphQL client (e.g., Insomnia, Postman)
+- A script using Python or `curl`
+
+Save the full JSON response into the corresponding `.json` output file.
+
+---
+
+## ✅ Completion Checklist
+
+- [x] All `.graphql` files created
+- [x] All `.json` output files saved
+- [x] Queries return correct fields as specified
+
+---
+
+Happy querying! 🚀
